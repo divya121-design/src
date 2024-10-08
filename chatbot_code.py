@@ -42,8 +42,8 @@ msg = []
 while True:
     single_message = {}
     # print("Role    : User")
-    entered_text = input("Content: ").strip()
-    print()
+    #entered_text = input("Content: ").strip()
+    #print()
 
     if entered_text.lower() in ["exit", "quit"]:
         break
